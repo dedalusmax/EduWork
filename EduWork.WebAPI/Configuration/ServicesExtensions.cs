@@ -1,4 +1,6 @@
 ﻿using EduWork.Data;
+using EduWork.Domain.Contracts;
+using EduWork.Domain.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace EduWork.WebAPI.Configuration;
@@ -11,6 +13,8 @@ public static class ServicesExtensions
         {
             options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
         });
+
+        services.AddScoped<IUserService, UserService>();
 
         return services;
     }

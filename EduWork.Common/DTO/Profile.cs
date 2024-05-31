@@ -1,6 +1,6 @@
 ﻿namespace EduWork.Common.DTO;
 
-public record User
+public record Profile
 {
     public int Id { get; set; }
 
@@ -9,4 +9,6 @@ public record User
     public string Email { get; set; }
 
     public string RoleName { get; set; }
+
+    // ...
 }
