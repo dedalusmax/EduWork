@@ -10,9 +10,12 @@ namespace EduWork.WebAPI.Controllers
     public class UsersController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private readonly HttpContext _httpContext;
 
-        public UsersController(ApplicationDbContext context)
+        public UsersController(ApplicationDbContext context, IHttpContextAccessor httpContextAccessor)
         {
+            _httpContext = httpContextAccessor.HttpContext!;
+
             _context = context;
         }
 
