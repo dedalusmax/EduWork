@@ -5,9 +5,13 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduWork.WebAPI", "EduWork.WebAPI\EduWork.WebAPI.csproj", "{739D9C15-327D-4899-A274-73C436F1CA9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduWork.Data", "EduWork.Data\EduWork.Data.csproj", "{B51D1B86-D0C7-4E79-B39B-4C95E5253AC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduWork.Data", "EduWork.Data\EduWork.Data.csproj", "{B51D1B86-D0C7-4E79-B39B-4C95E5253AC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduWork.Domain", "EduWork.Domain\EduWork.Domain.csproj", "{1189A322-D1E8-42E4-85AF-C146EAC13CB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduWork.Domain", "EduWork.Domain\EduWork.Domain.csproj", "{1189A322-D1E8-42E4-85AF-C146EAC13CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduWork.UI", "EduWork.UI\EduWork.UI.csproj", "{95AE77A0-065C-4EE7-A79F-766C6AAF043E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduWork.Common", "EduWork.Common\EduWork.Common.csproj", "{1E0FC189-3AAD-45A5-AC78-CBF9374D3B4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{1189A322-D1E8-42E4-85AF-C146EAC13CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1189A322-D1E8-42E4-85AF-C146EAC13CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1189A322-D1E8-42E4-85AF-C146EAC13CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95AE77A0-065C-4EE7-A79F-766C6AAF043E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95AE77A0-065C-4EE7-A79F-766C6AAF043E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95AE77A0-065C-4EE7-A79F-766C6AAF043E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95AE77A0-065C-4EE7-A79F-766C6AAF043E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0FC189-3AAD-45A5-AC78-CBF9374D3B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0FC189-3AAD-45A5-AC78-CBF9374D3B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0FC189-3AAD-45A5-AC78-CBF9374D3B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0FC189-3AAD-45A5-AC78-CBF9374D3B4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
